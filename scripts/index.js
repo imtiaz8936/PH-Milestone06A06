@@ -81,7 +81,7 @@ const showPlants = (plants) => {
 
 const addToCartPlant = () => {
     plantsContainer.addEventListener("click", (e) => {
-
+        
         if (e.target.innerText === "Add to Cart") {
 
             const plantId = e.target.parentNode.id;
