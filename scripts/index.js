@@ -94,6 +94,8 @@ const addToCartPlant = () => {
             };
             cartArray.push(cartData);
 
+            alert(`${plantName} has been added to the cart.`);
+
             if (addToCart) {
                 addToCartAndCountTotal.children[0].children[0].classList.add("hidden");
                 addToCartAndCountTotal.children[1].classList.remove("hidden");
